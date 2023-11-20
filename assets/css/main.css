@@ -1128,7 +1128,7 @@ section {
   align-items: center;
   justify-content: center;
   color: var(--color-primary);
-  margin-right: 25px;
+  margin-right: 10px;
   font-size: 28px;
   width: 56px;
   height: 56px;
@@ -1246,7 +1246,7 @@ section {
 }
 
 .about .about-img {
-  min-height:800px;
+  min-height:600px;
   background-size: cover;
   background-position: center;
 }
