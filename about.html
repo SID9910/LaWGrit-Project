@@ -50,6 +50,8 @@
         <h1>UpConstruction<span>.</span></h1>
       </a>
 
+      <div id="google_translate_element"></div>
+
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
@@ -616,6 +618,16 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+          );
+        }
+      </script>
+      
 </body>
 
 </html>
