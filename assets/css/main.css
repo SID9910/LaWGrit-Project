@@ -38,6 +38,18 @@ body {
   overflow-x: hidden;
 }
 
+body > .skiptranslate{
+  display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+} 
+
+body {
+  top: 0px !important; 
+  }
+
 a {
   color: var(--color-primary);
   text-decoration: none;
