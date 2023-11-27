@@ -50,6 +50,8 @@
         <h1>LawGrit<span>.</span></h1>
       </a>
 
+      <div id="google_translate_element"></div>
+
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
@@ -88,8 +90,9 @@
 
     <div class="info d-flex align-items-center">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
+        <div class="row justify-content-center" style="position: absolute;
+        top: 0; left: 10px;">
+          <div class="col-lg-6 text-center" style="position: relative; top: 240px;">
             <h2 data-aos="fade-down">Welcome to <span>LawGrit</span></h2>
             <p data-aos="fade-up">A comprehensive resource dedicated to empowering individuals by providing knowledge about their rights. Our mission is to inform, educate, and advocate for the understanding and protection of fundamental rights and freedoms.</p>
             <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Chat with us</a>
@@ -259,8 +262,18 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
+<<<<<<< HEAD
           <h2>Services</h2>
           <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+=======
+
+          <h2>Services</h2>
+          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos
+            quam</p>
+=======
+          <h2>LawGrit</h2>
+         
+>>>>>>> db6389c3f43a2ec6b03135bf7ccbc3534ffddcbf
         </div>
 
         <div class="row gy-4">
@@ -1005,6 +1018,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: 'en' },
+        'google_translate_element'
+      );
+    }
+  </script>
 
 </body>
 
