@@ -47,8 +47,10 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>LawGrit <span>.</span></h1>
+        <h1>LawGrit<span>.</span></h1>
       </a>
+
+      <div id="google_translate_element"></div>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -56,10 +58,9 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="services.html" class="active">Fundamental Rights</a></li>
+          <li><a href="services.html">Fundamental Rights</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="blog.html">Blog</a></li>
-      
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -73,7 +74,7 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/fundamental\ rights.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2 style=" color: rgb(138, 134, 134); cursor:pointer ;">Fundamental Rights</h2>
+        <h2>Fundamental Rights</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
           <li>Fundamental Rights</li>
@@ -581,6 +582,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: 'en' },
+        'google_translate_element'
+      );
+    }
+  </script>
 
 </body>
 

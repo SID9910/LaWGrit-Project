@@ -142,7 +142,7 @@ section {
 .breadcrumbs h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: rgb(228, 228, 228);
   font-family: var(--font-secondary);
 }
 

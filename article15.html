@@ -43,6 +43,8 @@
         <h1>LawGrit<span>.</span></h1>
       </a>
 
+      <div id="google_translate_element"></div>
+
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
@@ -65,7 +67,7 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/fundamental\ rights.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        
+        <h2>Article</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
           <li>Article-15</li>
@@ -81,7 +83,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-          <h1 style="color: rgb(13, 0, 255);">Article 15</h1>
+          <h1>Article 15</h1>
           <br>
           <div class="col-lg-4">
            
@@ -144,6 +146,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: 'en' },
+        'google_translate_element'
+      );
+    }
+  </script>
 
 </body>
 
