@@ -48,7 +48,25 @@ body > .skiptranslate{
 
 body {
   top: 0px !important; 
-  }
+}
+
+.goog-logo-link{
+  display: none !important;
+}
+
+.goog-te-gadget{
+  color: transparent !important;
+}
+
+.goog-te-gadget span{
+  display: none;
+}
+
+.goog-te-combo{
+  position: relative;
+  top: 10px;
+  background-color: rgb(214, 214, 214);
+}
 
 a {
   color: var(--color-primary);
