@@ -6,6 +6,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Article 35</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -33,33 +36,7 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>LawGrit<span>.</span></h1>
-      </a>
-
-      <div id="google_translate_element"></div>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Fundamental Rights</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <div id="head-content"></div>
 
   <main id="main">
 
@@ -137,16 +114,9 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script type="text/javascript"
-    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement(
-        { pageLanguage: 'en' },
-        'google_translate_element'
-      );
-    }
-  </script>
+<script type="text/javascript">
+  $('#head-content').load('header.html')
+</script>
 
 </body>
 

@@ -21,7 +21,8 @@
   $contact->to = $receiving_email_address;
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
-  $contact->subject = 'Request for a quote';
+  $contact->from_phone = $_POST['phone'];
+  $contact->subject = $_POST['Request for a quote'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
