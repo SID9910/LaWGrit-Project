@@ -1898,14 +1898,11 @@ section {
 }
 
 .hero .info {
-  position: absolute;
+  position: relative;
   inset: 0;
   z-index: 2;
 }
 
-/* div.col-lg-6.text-center{
-  text-align: center;
-} */
 @media (max-width: 768px) {
   .hero .info {
     padding: 0 50px;
